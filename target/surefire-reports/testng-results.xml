@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T22:01:45 IST" name="Suite" finished-at="2024-09-17T22:03:29 IST" duration-ms="103725">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" name="LoginErrorValidation" class="Pallavi_Practise_Project.Test.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" name="submitOrder" class="Pallavi_Practise_Project.Test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-09-17T22:01:45 IST" name="Error Validation Test" finished-at="2024-09-17T22:02:55 IST" duration-ms="69200">
+      <class name="Pallavi_Practise_Project.Test.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:01:45 IST" name="launchApplication" finished-at="2024-09-17T22:02:19 IST" duration-ms="33528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:02:19 IST" name="LoginErrorValidation" finished-at="2024-09-17T22:02:20 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:02:20 IST" name="tearDown" finished-at="2024-09-17T22:02:20 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:02:20 IST" name="launchApplication" finished-at="2024-09-17T22:02:52 IST" duration-ms="31375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:02:52 IST" name="ProductErrorValidation" finished-at="2024-09-17T22:02:55 IST" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pallavi_Practise_Project.Test.ErrorValidationTest@46d59067]" started-at="2024-09-17T22:02:55 IST" name="tearDown" finished-at="2024-09-17T22:02:55 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pallavi_Practise_Project.Test.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-09-17T22:01:45 IST" name="Submit Order Test" finished-at="2024-09-17T22:03:29 IST" duration-ms="103725">
+      <class name="Pallavi_Practise_Project.Test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:01:46 IST" name="launchApplication" finished-at="2024-09-17T22:02:19 IST" duration-ms="33151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:19 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-17T22:02:24 IST" duration-ms="4813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, product=ADIDAS ORIGINAL, email=Pallavi+01@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:24 IST" name="tearDown" finished-at="2024-09-17T22:02:24 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:24 IST" name="launchApplication" finished-at="2024-09-17T22:02:52 IST" duration-ms="27842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:52 IST" name="submitOrder" data-provider="getData" finished-at="2024-09-17T22:02:57 IST" duration-ms="4809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, product=ZARA COAT 3, email=Tomar+01@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:57 IST" name="tearDown" finished-at="2024-09-17T22:02:57 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:02:57 IST" name="launchApplication" finished-at="2024-09-17T22:03:28 IST" duration-ms="31540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:03:28 IST" name="OrderHistoryTest" finished-at="2024-09-17T22:03:29 IST" depends-on-methods="Pallavi_Practise_Project.Test.SubmitOrderTest.submitOrder" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pallavi_Practise_Project.Test.SubmitOrderTest@52f27fbd]" started-at="2024-09-17T22:03:29 IST" name="tearDown" finished-at="2024-09-17T22:03:29 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pallavi_Practise_Project.Test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
